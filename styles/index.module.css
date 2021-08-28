@@ -387,12 +387,12 @@
     }
     .carouselItemImg2{
         margin-left: 20px;
-        width: 40%;
+        width: 35%;
         height: 40%; 
     }
     .carouselItemImg3{
         margin-left: 20px;
         width: 30%;
-        height: 40%; 
+        height: 50%; 
     }
 }
