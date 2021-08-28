@@ -49,21 +49,9 @@ export default function Index() {
                 </div>
                 <div className={styles.plantsCarousel}>
                     <Carousel className={styles.carouselContainer} variant='dark' controls='false'>
-                        <Carousel.Item >
-                            <div className={styles.carouselItem}>
-                                <img src="/1.png" alt="#" className={styles.carouselItemImg} />
-                                <div className={styles.carouselItemTextContainer}>
-                                    <div className={styles.carouselItemTitle}>Areca<hr width='50%' /></div>
-                                    <div className={styles.carouselItemText}>
-                                        Areca is a genus of 51 species of palms in the family Arecaceae, found in humid tropical forests from the islands of the Philippines, Malaysia and India, across Southeast Asia to Melanesia.The generic name Areca is derived from a name used locally on the Malabar Coast of India.
-                                    </div>
-                                    <div className={styles.carouselItemLink}><Link href='#'>More information...</Link></div>
-                                </div>
-                            </div>
-                        </Carousel.Item>
                         <Carousel.Item>
                             <div className={styles.carouselItem}>
-                                <img src="/2.png" alt="" className={styles.carouselItemImg} />
+                                <img src="/2.png" alt="" className={styles.carouselItemImg2} />
                                 <div className={styles.carouselItemTextContainer}>
                                     <div className={styles.carouselItemTitle}>Plumeria<hr width='52%' /></div>
                                     <div className={styles.carouselItemText}>
@@ -75,11 +63,23 @@ export default function Index() {
                         </Carousel.Item>
                         <Carousel.Item>
                             <div className={styles.carouselItem}>
-                                <img src="/3.png" alt="" className={styles.carouselItemImg} />
+                                <img src="/3.png" alt="" className={styles.carouselItemImg3} />
                                 <div className={styles.carouselItemTextContainer}>
                                     <div className={styles.carouselItemTitle}>Monstera <hr className width='51%' /></div>
                                     <div className={styles.carouselItemText}>
                                         Monstera is a genus of 45 species of flowering plants in the arum family, Araceae, native to tropical regions of the Americas. The genus is named from the Latin word for monstrous or abnormal, and refers to the unusual leaves with natural holes that members of the genus have.
+                                    </div>
+                                    <div className={styles.carouselItemLink}><Link href='#'>More information...</Link></div>
+                                </div>
+                            </div>
+                        </Carousel.Item>
+                        <Carousel.Item >
+                            <div className={styles.carouselItem}>
+                                <img src="/1.png" alt="#" className={styles.carouselItemImg1} />
+                                <div className={styles.carouselItemTextContainer}>
+                                    <div className={styles.carouselItemTitle}>Areca<hr width='50%' /></div>
+                                    <div className={styles.carouselItemText}>
+                                        Areca is a genus of 51 species of palms in the family Arecaceae, found in humid tropical forests from the islands of the Philippines, Malaysia and India, across Southeast Asia to Melanesia.The generic name Areca is derived from a name used locally on the Malabar Coast of India.
                                     </div>
                                     <div className={styles.carouselItemLink}><Link href='#'>More information...</Link></div>
                                 </div>

@@ -55,8 +55,6 @@ export function FormSignUp(props) {
                             </div>
                             <div className={styles.footerTerms}>By clicking `Continue`, you agree to the Terms and Privacy Policy</div>
                         </div>
-
-
                     </Container>
                 </Modal.Body>
             </Modal>

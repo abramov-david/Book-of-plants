@@ -76,3 +76,22 @@
     position: absolute;
     bottom: 35px;
 }
+
+@media only screen and (max-width: 414px) {
+    .buttonForm{
+        color: #334134;
+        font-size: 10px;
+        font-weight: 800;
+        padding: 10px 55px 10px 55px ;
+    }
+    .inputContainer input{
+        width: 50%;
+        font-size: 15px;    
+    }
+    .inputContainer{
+        font-size: 15px;
+    }
+    .modal{
+        top:100px
+    }
+}

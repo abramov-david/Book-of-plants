@@ -99,3 +99,25 @@
     font-size: 13px;
     bottom: 0px;
 }
+
+@media only screen and (max-width: 414px) {
+    .footerButton{
+        color: #334134;
+        font-size: 10px;
+        font-weight: 800;
+        padding: 10px 50px 10px 50px ;
+    }
+    .inputContainer input{
+        width: 50%;
+        font-size: 15px;    
+    }
+    .inputContainer{
+        font-size: 15px;
+    }
+    .inputContainer select{
+        font-size: 15px;
+    }
+    .modal{
+        top:100px
+    }
+}
