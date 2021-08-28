@@ -1,0 +1,101 @@
+.modal{
+    border-radius: 15px;
+}
+
+.modalLogo{
+    width: 18%;
+    position: absolute;
+    right: 50px;
+}
+.modalTitle{
+    color: #C4C4C4;
+    font-size: 35px;
+    font-weight: 400;
+}
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 400px;
+    width: 100%;
+    background-color: #C4C4C4;
+    background:url('/background_form_sign_in.png');
+    background-size: cover;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.inputContainerInputs{
+    display: flex;
+}
+.inputContainer input{
+    width: 58%;
+    font-size: 20px;
+    margin-left: 10px;
+    right: 50px;
+    border: none;
+    background-color: inherit;
+    background: inherit;
+    border-bottom: 2px solid #3b4b3c;
+
+}
+.inputContainer input:focus{
+    outline: none;
+    box-shadow: 0px 8px 6px -6px  #556d57;
+}
+.inputContainer select{
+    width: 58%;
+    font-size: 20px;
+    margin-left: 10px;
+    right: 50px;
+    border: none;
+    background-color: inherit;
+    border-bottom: 2px solid #3b4b3c;
+}
+.inputContainer select:focus{
+    outline: none;
+    box-shadow: 0px 8px 6px -6px  #556d57;
+}
+.inputContainerInputs{
+    margin-bottom: 50px;
+}
+
+
+
+
+.footerButton{
+    color: #334134;
+    font-size: 18px;
+    font-weight: 500;
+    background:url('/button.png');
+    background-size: cover;
+    border: none;
+    padding: 10px 70px 10px 70px ;
+    margin-right: 10px;
+    border-radius: 25px;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0px 1px 5px #334134;
+}
+
+.footerButton:hover{
+    box-shadow: 0px 0px 15px #334134;
+}
+.inputContainerRemember{
+    color: #334134;
+    
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footerButtons{
+    margin-top: 20px;
+}
+.footerTerms{ 
+    margin-top: 10px; 
+    font-size: 13px;
+    bottom: 0px;
+}

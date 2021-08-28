@@ -1,0 +1,342 @@
+.page{
+    font-family: 'Prompt', sans-serif;
+    background:url('/main_background.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+  }
+  .main{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  .containerTitle{
+      margin-bottom: 50px;
+      display: flex;
+      flex-direction: column;
+  }
+  .title{
+      display: flex;
+      margin-bottom: -40px;
+      justify-content: center;
+      font-size: 150px;
+      font-weight: 400;
+      color: #334134;
+      animation: title 1.5s forwards;
+      transform: translateX(-100%);
+     }
+  @keyframes title {
+      from { transform: translateX(-100%);}
+      to{ transform: translateX(0%);}
+  }
+  .subTitle{
+      margin-left: 340px;
+      text-align: left;
+      font-size: 20px;
+      color: #334134;
+      opacity: 0.5;
+      animation: subTitle 2s forwards;
+      transform: translateX(-100%);
+     }
+  @keyframes subTitle {
+      from { transform: translateX(-100%);}
+      to{ transform: translateX(0%);}
+  }
+  .question{
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      margin-top: 30px;
+      font-size: 22px;
+      display: flex;
+      padding: 25px;
+      margin-left: 35%;
+      margin-right: 35%;
+      justify-content: center;
+      align-items: center;
+      background: rgba(196, 196, 196, 0.6);
+      text-align: center;
+      color: #334134;
+      animation: question 2s 2.5s forwards;
+      transform: translateY(100%);
+      opacity: 0;
+     }
+  @keyframes question {
+      from {opacity: 0; transform: translateY(50%);}
+      to{opacity: 1; transform: translateY(0%);}
+  }
+  .searchInput{
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .searchInput .searchInputwindow{
+      background-color: #C4C4C4;
+      border:none;
+      margin-left: 360px;
+      width:770px;
+      height: 60px;
+      font-size: 25px;
+      padding-left: 15px;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      transition: 0.1s ease-in-out;
+      color: #334134;
+  }
+  .searchInputwindow:focus{
+      outline: none;
+      border: 2px solid #334134;
+      box-shadow: 0px 0px 15px #556d57;
+  }
+
+  .searchInputButton{
+      height: 60px;
+      border-bottom-right-radius: 10px;
+      border-top-right-radius: 10px;
+      font-size: 20px;
+      padding:0 30px 0 30px;
+      border: none;
+      color: white;
+      background-color: #334134;
+      transition: 0.5s ease-in-out;
+  }
+  
+  .searchInputButton:hover{
+      background-color: #3b4b3c;
+      box-shadow: 0px 0px 15px #556d57;
+      transition: 0.5s ease-in-out;
+  }
+  .searchInputButton i {
+      font-size: 25px;
+  }
+  .searchInputLinks{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .searchInputLinksContainer{
+      margin-left: 50px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+  .searchInputLinksSubtext{
+      margin-left: 50px;
+      font-size: 18px;
+      font-weight: 400;
+      color: #C4C4C4;
+  }
+  .searchInputLinks a{
+      color: #C4C4C4;
+      text-decoration: none;
+      font-size: 27px;
+      font-weight: 300;
+      transition: 0.6s;
+  }
+  .searchInputLinks a:hover{
+      color: #ebe5e5;
+      text-shadow: 0px 0px 15px #C4C4C4;
+      transition: 0.6s;
+  }
+  
+  .vl {
+      border-left: 2px solid #C4C4C4;
+      height: 50px;
+      margin: 0px 20px 0px 20px;
+    }
+  
+  .plantsCarousel{
+      margin-top: 50px;
+      width: 100%;
+  }
+  .carouselContainer{
+      border-radius: 10px;
+  }
+    .carouselItem{
+      padding:20px 0px 0px 500px ;
+      display: flex;
+      justify-content: start;
+      flex-direction: row;
+      color:#2f3a30;
+      font-size: 35px;
+      height: 300px;
+      background-color: #C4C4C4;
+      
+    }
+    .carouselItemTitle{
+        margin-left: 50px;
+        animation: carouselItemTitle 3s forwards;
+        transform: translateX(0%);
+        opacity: 0;
+       }
+    @keyframes carouselItemTitle {
+        from {opacity: 0; transform: translateX(-5%);}
+        to{opacity: 1; transform: translateX(0%);}
+    }
+    .carouselItemTextContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .carouselItemText{
+        margin-left: 50px;
+        width: 50%;
+        font-size: 18px;
+        animation: carouselItemText 3s forwards;
+        transform: translateX(0%);
+        opacity: 0;
+       }
+    @keyframes carouselItemText {
+        from {opacity: 0; transform: translateX(-4%);}
+        to{opacity: 1; transform: translateX(0%);}
+    }
+.carouselItemImg{
+    animation: carouselItemImage 2s forwards;
+    transform: translateY(100%);
+    opacity: 0;
+   }
+@keyframes carouselItemImage {
+    from {opacity: 0; transform: translateX(-50%);}
+    to{opacity: 1; transform: translateX(0%);}
+}
+    .carouselItemLink{
+        background-color: #C4C4C4;
+        border:1px solid #4c5f4d;
+        border-radius: 20px;
+        padding: 5px 20px 5px 20px;
+        position: absolute;
+        bottom: 50px;
+        right: 310px;
+        font-size: 15px;
+        font-weight: 400;
+        transition: 0.3s ease-in-out;
+    }
+.carouselItemLink:hover{
+    box-shadow: 0px 0px 10px #4c5f4d;
+}
+    .carouselItemLink a{
+        text-decoration: none;
+        color: #334134;
+        transition: 0.5s;
+    }
+
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 9px;
+}
+
+.footerText{
+    margin-top: 35px;
+    margin-left: 50px;
+    font-size: 20px;
+    color: #C4C4C4;
+}
+
+.footerLabels{
+    margin-left: 40px;
+    font-size: 35px;
+    color: #C4C4C4;
+}
+.Line{
+    color: #C4C4C4;
+    margin-top: 5px;
+}
+
+.footerLogo{
+    position: absolute;
+    width: 6%;
+    margin-left: 30px;
+    left: 0;
+}
+
+/* IPHONE X styles */
+@media only screen and (max-width: 414px) {
+    .title{
+        font-size:40px;
+        margin:0px;
+        margin-left:0px
+    }
+    .searchInput .searchInputwindow{
+        width: 320px; 
+        margin:0px;
+        height: 30px;
+        font-size: 15px;
+    }
+    .subTitle{
+        text-align: center;
+        font-size: 12px;
+        margin: 0px;
+    }
+    .question{
+        font-size: 13px;
+        margin:0px
+    }
+    .searchInputButton{
+        height: 30px;
+        width: 30px;
+        padding: 0px 5px 0px 5px;
+    }
+    .searchInput{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+      .searchInputLinksContainer{
+          margin:0px
+      }
+      .searchInputLinksContainer a{
+          font-size: 20px;
+      }
+      .searchInputLinksSubtext{
+          font-size: 12px;
+          margin:0px
+      }
+      .carouselItem{
+        padding:20px 0px 0px 0px ;
+    }
+    .carouselItemImg{
+        margin-left: 5px;
+        width: 50%;
+        height: 50%;
+    }
+    .carouselItemText{
+        width: 70%;
+        font-size: 10px;
+    }
+    .carouselItemLink{
+        background-color: #C4C4C4;
+        border:1px solid #4c5f4d;
+        border-radius: 20px;
+        padding: 5px 20px 5px 20px;
+        position: absolute;
+        bottom: 50px;
+        right: 250px;
+        font-size: 5px;
+        font-weight: 400;
+        transition: 0.3s ease-in-out;
+    }
+    .footerLabels{
+        margin-left: 15px;
+        font-size: 25px;
+        color: #C4C4C4;
+    }
+    .footerText{
+        margin-top: 25px;
+        margin-left: 50px;
+        font-size: 15px;
+        color: #C4C4C4;
+    }
+    .footerLogo{
+        position: absolute;
+        width: 20%;
+        margin-left: 10px;
+        left: 0;
+    }
+}
