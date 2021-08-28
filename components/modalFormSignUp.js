@@ -53,7 +53,7 @@ export function FormSignUp(props) {
                                 <button className={styles.footerButton} type='submit'>Register</button>
                                 <button className={styles.footerButton} onClick={props.onHide} type='submit'>Close</button>
                             </div>
-                            <div className={styles.footerTerms}>By clicking "Continue", you agree to the Terms and Privacy Policy</div>
+                            <div className={styles.footerTerms}>By clicking `Continue`, you agree to the Terms and Privacy Policy</div>
                         </div>
 
 

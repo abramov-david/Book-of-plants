@@ -14,7 +14,7 @@ export function FormSignIn(props) {
                 <Modal.Header closeButton>
                     <Modal.Title id="contained-modal-title-vcenter" className={styles.modalTitle}>
                         Sign In
-                        <img src="/white_logo.png" alt="" className={styles.modalLogo} />
+                        <img src="/white_logo.png" alt="#" className={styles.modalLogo} />
                     </Modal.Title>
                 </Modal.Header>
                 <Modal.Body className="show-grid">

@@ -51,7 +51,7 @@ export default function Index() {
                     <Carousel className={styles.carouselContainer} variant='dark' controls='false'>
                         <Carousel.Item >
                             <div className={styles.carouselItem}>
-                                <img src="/1.png" alt="" className={styles.carouselItemImg} />
+                                <img src="/1.png" alt="#" className={styles.carouselItemImg} />
                                 <div className={styles.carouselItemTextContainer}>
                                     <div className={styles.carouselItemTitle}>Areca<hr width='50%' /></div>
                                     <div className={styles.carouselItemText}>
@@ -79,7 +79,7 @@ export default function Index() {
                                 <div className={styles.carouselItemTextContainer}>
                                     <div className={styles.carouselItemTitle}>Monstera <hr width='51%' /></div>
                                     <div className={styles.carouselItemText}>
-                                        Monstera is a genus of 45 species of flowering plants in the arum family, Araceae, native to tropical regions of the Americas. The genus is named from the Latin word for "monstrous" or "abnormal", and refers to the unusual leaves with natural holes that members of the genus have.
+                                        Monstera is a genus of 45 species of flowering plants in the arum family, Araceae, native to tropical regions of the Americas. The genus is named from the Latin word for monstrous or abnormal, and refers to the unusual leaves with natural holes that members of the genus have.
                                     </div>
                                     <div className={styles.carouselItemLink}><Link href='#'>More information...</Link></div>
                                 </div>
