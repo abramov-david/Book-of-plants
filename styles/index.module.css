@@ -4,7 +4,7 @@
     background-position: center;
     background-size: cover;
     height: 100vh;
-    overflow-x: hidden;
+    overflow: hidden;
   }
   .main{
       display: flex;
@@ -177,10 +177,6 @@
         from {opacity: 0; transform: translateX(-5%);}
         to{opacity: 1; transform: translateX(0%);}
     }
-    .carouselItemTextContainer{
-        display: flex;
-        flex-direction: column;
-    }
     .carouselItemText{
         margin-left: 50px;
         width: 50%;
@@ -267,7 +263,7 @@
     .searchInput .searchInputwindow{
         width: 320px; 
         margin:0px;
-        height: 30px;
+        height: 50px;
         font-size: 15px;
     }
     .subTitle{
@@ -276,11 +272,12 @@
         margin: 0px;
     }
     .question{
+        padding:15px 10px 15px 10px;
         font-size: 13px;
         margin:0px
     }
     .searchInputButton{
-        height: 30px;
+        height: 50px;
         width: 30px;
         padding: 0px 5px 0px 5px;
     }
@@ -290,7 +287,7 @@
         justify-content: center;
       }
       .searchInputLinksContainer{
-          margin:0px
+          margin:20px 0px 0px 0px
       }
       .searchInputLinksContainer a{
           font-size: 20px;
@@ -300,16 +297,24 @@
           margin:0px
       }
       .carouselItem{
-          height: 350px;
+          height: 300px;
         padding:20px 0px 0px 0px ;
     }
     .carouselItemImg{
         margin-left: 5px;
-        width: 50%;
-        height: 50%;
+        width: 40%;
+        height: 40%;
+    }
+    .carouselItemTitle{
+        text-align: right;
+        margin-right: 20px;
+    }
+    .carouselItemTitle hr{
+     display: flex;
+     align-self: flex-end;
     }
     .carouselItemText{
-        margin-left: 30px;
+        text-align: right;
         width: 70%;
         font-size: 10px;
     }
@@ -328,13 +333,19 @@
     .carouselItemTitle{
         margin-left: 30px;
     }
+    .carouselItemTitle hr{
+        display: none;
+    }
+    .footer{
+        margin-top: 40px;
+    }
     .footerLabels{
         margin-left: 15px;
         font-size: 25px;
         color: #C4C4C4;
     }
     .footerText{
-        margin-top: 25px;
+        margin-top: 30px;
         margin-left: 50px;
         font-size: 15px;
         color: #C4C4C4;

@@ -77,7 +77,7 @@ export default function Index() {
                             <div className={styles.carouselItem}>
                                 <img src="/3.png" alt="" className={styles.carouselItemImg} />
                                 <div className={styles.carouselItemTextContainer}>
-                                    <div className={styles.carouselItemTitle}>Monstera <hr width='51%' /></div>
+                                    <div className={styles.carouselItemTitle}>Monstera <hr className width='51%' /></div>
                                     <div className={styles.carouselItemText}>
                                         Monstera is a genus of 45 species of flowering plants in the arum family, Araceae, native to tropical regions of the Americas. The genus is named from the Latin word for monstrous or abnormal, and refers to the unusual leaves with natural holes that members of the genus have.
                                     </div>
