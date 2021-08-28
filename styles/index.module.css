@@ -382,8 +382,8 @@
     }
     .carouselItemImg1{
         margin-left: 50px;
-        width: 20%;
-        height: 20%; 
+        width: 30%;
+        height: 50%; 
     }
     .carouselItemImg2{
         margin-left: 20px;
@@ -393,6 +393,6 @@
     .carouselItemImg3{
         margin-left: 20px;
         width: 30%;
-        height: 50%; 
+        height: 40%; 
     }
 }
